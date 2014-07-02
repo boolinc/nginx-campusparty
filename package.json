@@ -1,0 +1,28 @@
+{
+  "name": "node-sample-server",
+  "version": "0.0.0",
+  "description": "Node.js Sample Server for CPCO7 Conference",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever start server.js",
+    "stop": "forever stop server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/boolinc/nginx-campusparty"
+  },
+  "keywords": [
+    "nginx",
+    "cpmx5",
+    "cpco7"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <pandres95@boolinc.co>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/boolinc/nginx-campusparty/issues"
+  },
+  "homepage": "https://github.com/boolinc/nginx-campusparty"
+}
